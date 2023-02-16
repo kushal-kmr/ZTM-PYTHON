@@ -13,8 +13,8 @@ picture = [
 
 for image in picture:
   for pixel in image:
-    if (pixel):
-      print('*', end ="")
+    if (pixel == 1):
+      print('*', end ="")         #default value of end is \n
     else:
       print(' ', end ="")
-  print('')
+  print('')                       #need a new line after every row
