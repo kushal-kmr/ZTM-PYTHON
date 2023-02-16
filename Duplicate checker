@@ -1,0 +1,12 @@
+lst = ['a' , 'b','k' ,'c', 'd','v', 'a','5','q', 'f', 't', 'k']
+
+
+
+duplicate = []
+for item in lst:
+    x = lst.count(item)
+    if x > 1:
+        if item not in duplicate:
+            duplicate.append(item)
+
+print(duplicate)
